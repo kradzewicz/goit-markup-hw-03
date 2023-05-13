@@ -14,7 +14,6 @@
 
 ul {
   list-style: none;
-  /* padding: 0 15px; */
 }
 
 a {
@@ -117,7 +116,7 @@ nav li:nth-child(2) {
   color: var(--first-special-colour);
 }
 
-.ad-section {
+.service-section {
   background-color: var(--second-background-colour);
   text-align: center;
   letter-spacing: 0.06em;
@@ -125,7 +124,7 @@ nav li:nth-child(2) {
   padding-bottom: 200px;
 }
 
-.ad-text {
+.service-text {
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
@@ -133,7 +132,7 @@ nav li:nth-child(2) {
   color: white;
 }
 
-.ad-button {
+.service-button {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -150,6 +149,10 @@ nav li:nth-child(2) {
 
 .info-section {
   background-color: white;
+}
+
+.info-section ul {
+  padding: 0 15px;
 }
 
 .info-example-header {
@@ -174,6 +177,10 @@ nav li:nth-child(2) {
 
 .team-section {
   background-color: var(--third-background-colour);
+}
+
+.team-section ul {
+  padding: 0 15px;
 }
 
 .flex-list {
@@ -228,6 +235,10 @@ footer {
   letter-spacing: 0.03em;
   line-height: 171%;
   font-size: 14px;
+}
+
+footer ul {
+  padding: 0 15px;
 }
 
 footer li:nth-child(2) {
@@ -292,6 +303,7 @@ footer li:nth-child(2) {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding: 0;
 }
 
 .portfolio-flex-list li {

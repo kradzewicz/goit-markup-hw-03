@@ -34,12 +34,11 @@ button {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 
 .section:nth-child(2) {
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 body {
@@ -70,7 +69,7 @@ header {
 }
 
 header .flex-list {
-  align-items: baseline;
+  align-items: center;
   gap: 0;
 }
 
@@ -88,10 +87,6 @@ nav li:nth-child(1) {
   margin-left: 93px;
 }
 
-/* nav li:nth-child(2) {
-  margin-left: 46px;
-  margin-right: 46px;
-} */
 nav ul {
   column-gap: 46px;
 }
@@ -102,11 +97,9 @@ nav ul {
   column-gap: 50px;
 }
 
-/* niżej z prawej musiałem zastosować ten padding żeby odstępy się zgadzały z figmą */
-
-.nav-address-list:last-child {
+/* .nav-address-list:last-child {
   padding-right: 27px;
-}
+} */
 
 .nav-links:hover,
 .nav-links:focus {
@@ -129,8 +122,7 @@ nav ul {
   background-color: var(--second-background-colour);
   text-align: center;
   letter-spacing: 0.06em;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0;
 }
 
 .service-text {
@@ -220,8 +212,7 @@ nav ul {
 footer {
   font-family: var(--font-primary);
   background-color: var(--second-background-colour);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 
 .font-normal {
@@ -248,8 +239,7 @@ footer ul {
 }
 
 footer li:nth-child(2) {
-  margin-bottom: 9px;
-  margin-top: 9px;
+  margin: 9px 0;
 }
 
 .footer-links:hover,
@@ -264,7 +254,7 @@ footer li:nth-child(2) {
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
-  border: 0px;
+  border: 0;
   padding: 6px 22px;
   margin-bottom: 50px;
 }
@@ -281,8 +271,7 @@ footer li:nth-child(2) {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 0 24px;
 }
 
 .portfolio-desription-section {
@@ -290,8 +279,7 @@ footer li:nth-child(2) {
   line-height: 1.88;
   color: var(--second-special-colour);
   padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 0 24px;
   margin-top: 4px;
 }
 
@@ -305,7 +293,6 @@ footer li:nth-child(2) {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  /* padding: 0; */
   justify-content: space-between;
 }
 
